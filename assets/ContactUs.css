@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+}
+
+.container{
+    width:100%;
+    height: 100%;
+}
+
+/*============================================== Navbar =================================*/
+.view1{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #eadede;
+}
+.navbar{
+    box-sizing: border-box;
+    width:100%;
+    height: 100px;
+}
+
+
+.view1 .navbar ul .left{
+  
+    width: 50%;
+    height: 100%;
+    float:left;  
+}
+
+.view1 .navbar ul .right{
+    width: 50%;
+    height: 100%;
+    float:right;
+}
+
+.view1 .navbar ul .left li{
+    display: inline-block;
+    padding-left: 20%;
+}
+
+.view1 .navbar ul .left .header{
+
+    padding-left: 0px;
+}
+.view1 .navbar ul .left .header a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.view1 .navbar ul .left .logo{
+    
+    padding-top:15px;
+}
+.view1 .navbar ul .right li {
+    display: inline-block;
+    padding-top:35px;
+    padding-right: 50px;
+}
+.view1 .navbar ul .right a {
+    text-decoration: none;
+    color:rgb(42, 40, 40);
+
+}
+/*============================================== View 1 - Body content =================================*/
+
+.view1-body{
+    width:100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.view1-body .half1
+{
+    width: 50%;
+    float: left;
+    text-align: start;
+    padding:10% 5% 10% 10%;
+}
+
+.view1-body .half1 .heading{
+    font-size: 50px;
+    font-weight:800;
+    margin-bottom: 40px;
+}
+
+.view1-body .half1 .paragraph{
+    margin-bottom: 30px;
+}
+
+.view1-body .half1 .shop-now, .view1-body .half1 .contact-us{
+    padding:15px;
+    width:135px;
+    color: #fff;
+    margin:  10px 10px 10px 0px;
+    border:none;
+    background-color: orange;
+
+}
+.view1-body .half1 .contact-us{
+    background-color: black;
+
+}
+
+.view1-body .half2-img{
+    width:50%;
+    float:right;
+    padding: 5% 5% 5% 0;
+    margin-top:30px;
+}
+.view1-body .half2-img .dish{
+    width:500px;
+    padding-left: 0;
+}
+/*============================================== Second View =================================*/
+
+.view2{
+    width:100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.view2 h2{
+    font-weight: 800;
+    padding-top: 50px;
+}
+.view2 p{
+    margin-bottom: 35px;
+}
+
+.view2 .card-group{
+    width:100%;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.view2 .card-group .card{
+    width:350px;
+
+    border:1px solid rgb(227, 217, 217);
+    display: inline-block;
+    margin-right: 20px;
+    padding:20px 10px;
+}
+
+.view2 .card-group .card:hover{
+    border-top: 5px solid salmon;
+    box-shadow: 0px 4px 6px rgb(67, 65, 65);
+}
+
+.view2 .card-group .card .icon{
+width: 50px;
+margin: 25px 0px;
+}
+
+.view2 .card-group .card .card-name{
+    color:rgb(238, 155, 0);
+ }
+
+ .view2 .ReadMore , .view2 .furits-section .fruit-album .left-album button, .view3 .left-album button{
+    padding:15px;
+    width:135px;
+    color: #fff;
+    margin:  10px 10px 20px 0px;
+    border:none;
+    background-color: black;
+    font-size: 15px;
+ }
+
+ .view2 .ReadMore:hover , .view3 .left-album button:hover{
+    background-color: #fff;
+    color: black;
+    border:1px solid black;
+ }
+/*============================================== View No.3 =================================*/
+ /*================= Fruit Album ================*/
+
+ .view3 
+ {
+    width: 100%;
+    height: 105vh;
+    margin: 0;
+ }
+ 
+
+ .furits-section .fruit-album .left-album{
+    width:60%;
+    float:left;
+    padding-left:10%;
+    margin-top: 50px;
+ }
+
+ .furits-section .fruit-album .left-album .best-fruit{
+    font-size: 25px;
+    margin-bottom: 40px;
+ }
+
+ .furits-section .fruit-album .left-album .hints{
+    margin-bottom: 15px;
+ }
+ .furits-section .fruit-album .right-album{
+    width:35%;
+    float:right;
+
+ }
+ .furits-section .fruit-album .right-album img{
+    width: 350px;
+    height: 200px;
+    object-fit: contain;
+    margin-top: 25px;
+    padding-right: 80px;
+ }
+/*============================================== View No.4 =================================*/
+.view4{
+    width:100%;
+    height: 70vh;
+    text-align: center;
+    background-image: url("images/tasty.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+}
+
+.view4 h3{
+    font-size: 110px;
+    font-weight: 900;
+    color:#fff;
+    padding-top:25vh;
+
+
+
+}
+/*============================================== View No.5 =================================*/
+.view5{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #fbfbfb;
+}
+
+.view5 .heading{
+    padding-top: 80px;
+    font-size: 38px;
+}
+.view5 p, .view5 .heading{
+    margin-bottom: 20px;
+}
+.view5 .Testimonial img{
+margin: 50px 0px ;
+}
+.view5 .client-name{
+    font-size: 30px;
+}
+
+.view5 .client-comment{
+    padding:0px 200px;
+}
+
+/*============================================== View No.6 =================================*/
+.view6{
+    width: 100%;
+    height: 70vh;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fbfbfb;
+    padding-left: 10%;
+
+}
+
+.view6 .contact-us .left{
+    width:60%;
+    padding-top: 10%;
+    float:left;
+}
+.view6 h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.view6 input{
+    padding:20px 0px 0px 0px;
+    color:rgb(79, 76, 76);
+    width:600px;
+    border:none;
+    border-bottom: 1px solid rgb(35, 33, 33);
+    background-color: #fbfbfb;
+}
+
+.view6 .Message{
+    margin-top: 50px;
+}
+
+.view6 .send , .view7 .right-content-social button{
+    padding:10px;
+    width:100px;
+    color: #fff;
+    margin:  40px 0px 0px 0px;
+    border:none;
+    background-color: darkorange;
+}
+
+
+.view6 .right{
+    float:right;
+    width:15%;
+    padding-top: 8%;
+}
+.view6 .right img{
+width:100%;
+
+}
+
+/*============================================== View No.7 =================================*/
+.view7{
+    width:100%;
+    height:70vh;
+    padding-top: 40px;
+    background-color: #fbfbfb;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+.view7 .left-content{
+
+    width:60%;
+    height: 100%;
+    float:left;
+    padding-left: 50px; 
+}
+.view7 .left-content .contect {
+    width:100px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.view7 .right-content-social{
+    width:40%;
+    height: 100%;
+    float: right;
+    padding-left: 50px;
+}
+.view7 .right-content-social img{
+    width:30px;
+    margin: 25px 5px;
+}
+
+.view7 .right-content-social input{
+    margin: 10px 0 0 0;
+    width:200px;
+    padding:5px;
+}
+.view7 .copyright{
+    text-align: center;
+    align-items: center;
+    margin-bottom:50px;
+    position:absolute;
+    left:43%;
+    bottom: 35px;
+}
+
